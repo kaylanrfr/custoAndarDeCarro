@@ -25,7 +25,7 @@
     if (isset($_SESSION["print"]))
     {
         echo $_SESSION["print"];
-        //session_destroy();
+        session_destroy();
     }
     
     ?>
