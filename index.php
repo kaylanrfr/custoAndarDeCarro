@@ -17,7 +17,7 @@
         <label for="fname">Distância:</label>
         <input type="number" step="0.01" id="kmdis" name="kmdis" value="">
         <label for="fname">Preço gasolina:</label>
-        <input type="number" step="0.01" id="gas" name="gas" value="">
+        <input type="number" step="0.001" id="gas" name="gas" value="">
         <input type="submit" value="Submit">
     </form>
     <?php
