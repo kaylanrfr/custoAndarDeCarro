@@ -13,11 +13,11 @@
         <label for="fname">Modelo:</label>
         <input type="text" id="modelo" name="modelo" value="">
         <label for="fname">Km por litro:</label>
-        <input type="number" id="kmlitro" name="kmlitro" value="">
+        <input type="number"  step="0.01 id="kmlitro" name="kmlitro" value="">
         <label for="fname">Distância:</label>
-        <input type="number" id="kmdis" name="kmdis" value="">
+        <input type="number" step="0.01 id="kmdis" name="kmdis" value="">
         <label for="fname">Preço gasolina:</label>
-        <input type="number" id="gas" name="gas" value="">
+        <input type="number" step="0.01 id="gas" name="gas" value="">
         <input type="submit" value="Submit">
     </form>
     <?php
